@@ -22,6 +22,7 @@ export default function Form() {
             payload:todo
         })
         setTodoString("")
+        localStorage.setItem('todoString',JSON.stringify(todo))
         dispatch({
             type:REMOVE_TODO,
             payload:todos[0]?.id

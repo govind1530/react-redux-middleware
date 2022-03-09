@@ -6,4 +6,5 @@ import ReduxThunk from './Redux(Thunk)/App'
 import ReduxSaga from './Redux(saga)/App';
 import Todo from './Todo';
 import Firebase from './Firebase/Pages/App';
-ReactDOM.render(<Firebase/>,document.getElementById("root"))
+import FirebaseRealTimeDataBase from './firebaseRealTimeDataBase/App'
+ReactDOM.render(<FirebaseRealTimeDataBase/>,document.getElementById("root"))
